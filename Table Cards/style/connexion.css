@@ -1,0 +1,154 @@
+body {
+  background: url(../images/fond2.jpg) no-repeat fixed;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+#container {
+  margin: 5% auto 0;
+  padding: 15px 20px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  border: 25px;
+  width: 27%;
+  height: 70%;
+  min-width: 300px;
+  box-shadow: 1px 3px 10px 3px #000000;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#container:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+
+#logo {
+  margin: -20px auto 0px;
+  padding: 0;
+  width: 70%;
+  height: 70%;
+}
+
+h2 {
+  transform: translateY(-25px);
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+}
+
+#log {
+  color: #45afdb;
+}
+
+#in {
+  color: black;
+}
+
+#ligne {
+  position: relative;
+  height: 5px;
+  width: 50px;
+  background-color: black;
+  padding: 0 0 0;
+  margin: 0px;
+  left: 3px;
+  top: -32px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box {
+  margin: 5px auto;
+  width: 100%;
+  border-bottom: 3px solid white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  background: transparent;
+}
+
+#user {
+  width: 90%;
+}
+
+#pass {
+  width: 80%;
+}
+
+::placeholder {
+  color: white;
+}
+
+.fa {
+  margin-right: 8px;
+  color: white;
+}
+
+.eye {
+  position: absolute;
+  width: fit-content;
+  float: right;
+}
+
+#hide1 {
+  width: fit-content;
+  float: right;
+}
+
+button {
+  padding: 5px;
+  margin: 20px auto 0;
+  width: 35%;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #45afdb;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #bbd2e1;
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+#message {
+  margin: 15px auto 0;
+  color: red;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+}
+
+#end {
+  height: 100px;
+  width: 100px;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 100px;
+  position: relative;
+}

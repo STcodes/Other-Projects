@@ -1,0 +1,103 @@
+body {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  color: white;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/banniere.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 11vh auto 0;
+  min-width: 400px;
+  max-width: 500px;
+  width: 25em;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+#login-logo {
+  width: 14em;
+  height: 14em;
+  margin: 0 auto -30px;
+}
+
+h2 {
+  font-size: 1.9em;
+  font-family: Arial;
+  text-align: left;
+  color: #fdac17;
+  margin-bottom: 30px;
+}
+
+form {
+  margin: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-bottom: 1em;
+}
+
+.login-input input {
+  color: white;
+  width: 12em;
+  height: 1.5em;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 5px;
+  border-bottom: 1px solid white;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+}
+
+#message {
+  margin: 10px auto;
+  text-align: center;
+  color: red;
+  font-size: 0.9em;
+  font-family: sans-serif;
+}
+
+form button {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 7px 30px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border: 1.5px #fdac17 solid;
+  margin: 0 auto 1.5em;
+}
+
+form button:nth-of-type(1) {
+  flex-basis: 80%;
+}
+
+form button:hover {
+  background-color: #fdac17;
+  color: black;
+  cursor: pointer;
+}
+
+#account {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 1.5em;
+}
+
+#account a {
+  color: #fdac17;
+}
